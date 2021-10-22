@@ -560,6 +560,17 @@ button {
   display: inline-block;
 }
 
+.skills ul {
+  list-style: none;
+}
+
+.skills li {
+  display: inline-block;
+}
+.ski {
+  padding-right: 62px;
+}
+
 .skills {
   height: 24px;
   display: flex;
@@ -574,15 +585,4 @@ button {
   letter-spacing: 0;
   text-align: left;
   padding-left: 32px;
-}
-
-.skills ul {
-  list-style: none;
-}
-
-.skills li {
-  display: inline-block;
-}
-.ski {
-  padding-right: 62px;
 }
