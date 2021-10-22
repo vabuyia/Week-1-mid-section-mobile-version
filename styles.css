@@ -141,7 +141,6 @@ body {
   color: #6070ff;
   background-color: #ebebff;
   border-radius: 5px;
-  text-align: center;
 }
 
 .sty-2 {
@@ -159,7 +158,6 @@ body {
   color: #6070ff;
   background-color: #ebebff;
   border-radius: 5px;
-  text-align: center;
 }
 
 .sty-3 {
@@ -177,7 +175,6 @@ body {
   color: #6070ff;
   background-color: #ebebff;
   border-radius: 5px;
-  text-align: center;
 }
 
 .see-button {
@@ -231,7 +228,6 @@ button {
   color: #d22938;
 }
 
-/**************page 3*******************/
 .page-2 {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -311,7 +307,6 @@ button {
   margin-top: -30px;
 }
 
-/*******************page 4 *******************/
 .page-3 {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -322,8 +317,6 @@ button {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
-
-/******************page 5****************/
 
 .page-4 {
   display: grid;
@@ -369,12 +362,10 @@ button {
   margin-top: -30px;
 }
 
-/*******************page 6**************/
-
 .pg6 {
   width: 375px;
   height: 1263px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-top-right-radius: 100px;
 }
 
@@ -409,7 +400,7 @@ button {
 .let {
   height: 24px;
   width: 150px;
-  padding: 0px 24px 0 24px;
+  padding: 0 24px 0 24px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -467,8 +458,6 @@ button {
   background-color: white;
 }
 
-/****************page 5****************/
-
 .arrow-down {
   width: 20px;
   height: 10px;
@@ -484,13 +473,14 @@ button {
 .separator {
   margin: 20px 24px;
 }
+
 .prog-sty {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #253858;
 }
