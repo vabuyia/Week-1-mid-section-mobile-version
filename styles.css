@@ -568,7 +568,7 @@ button {
   display: inline-block;
 }
 .ski {
-  padding-right: 62px;
+  padding: 0 62px 0 0;
 }
 
 .skills {
