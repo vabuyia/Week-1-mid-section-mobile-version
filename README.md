@@ -22,7 +22,7 @@ Portfolio: mobile version
 i). Works section should use CSS Grid and Flexbox combined.
 ii). "About myself" section.
 iii). Use ul and li for categories in "About myself" section. Languages, Frameworks an Skills should be list items.
-iv). You must stick to the design as much as possible (e.g/ font, colors, images, tests, margins)
+iv). You must stick to the design as much as possible (e.g font, colors, images, tests, margins)
 
 ## Built With
 
