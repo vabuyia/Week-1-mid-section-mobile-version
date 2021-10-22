@@ -567,8 +567,10 @@ button {
 .skills li {
   display: inline-block;
 }
+
 .ski {
-  padding: 0 62px 0 0;
+  padding-right: 62px; /* comment */
+  margin-right: 0; /* comment */
 }
 
 .skills {
