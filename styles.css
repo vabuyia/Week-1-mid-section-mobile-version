@@ -12,6 +12,127 @@ body {
   background-color: #f9f9fa;
 }
 
+.pg-1 {
+  width: 375px;
+  height: 718px;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+}
+
+header {
+  display: flex;
+  padding: 10px 14px 0 21px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+.my-style {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6070ff;
+}
+
+.logo {
+  display: flex;
+  margin: 0 24px 10px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-page-description {
+  width: 375px;
+  height: 450px;
+  background-size: cover;
+  background-image: url(imgs/header.png);
+}
+
+.name-description {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+  padding: 50px 24px 10px 24px;
+}
+
+.home-details {
+  width: 327px;
+  height: 150px;
+  padding: 40px 24px 10px 24px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.home-connect {
+  width: 180px;
+  height: 24px;
+  padding: 0 24px 10px 24px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7f8cff;
+}
+
+.home-apps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.home-apps ul {
+  list-style: none;
+}
+
+.home-apps li {
+  display: inline-block;
+}
+
+.box1 {
+  padding-right: 15px;
+}
+
+.box2 {
+  padding-right: 15px;
+}
+
+.box3 {
+  padding-right: 15px;
+}
+
+.box4 {
+  padding-right: 15px;
+}
+
 .images {
   padding: 16px 16px 0 16px;
 }
