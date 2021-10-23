@@ -299,7 +299,7 @@ header li {
 }
 
 .see-btn {
-  width: 135px;
+  width: 145px;
   height: 40px;
   border: 1px solid #396df2;
 }
@@ -309,23 +309,6 @@ header li {
   margin-top: -30px;
   cursor: pointer;
   transition: 0.3s;
-}
-
-button {
-  width: 120px;
-  height: 40px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  color: #396df2;
-  margin: 20px 0 5px 16px;
-  border: 1px solid #dfe1e6;
-  align-content: center;
-  border-radius: 10px;
-  align-items: center;
-  background-color: white;
 }
 
 .page-2 {
@@ -549,16 +532,26 @@ button {
 }
 
 .fill {
-  width: 165px;
+  width: 175px;
   height: 40px;
   border: 1px solid #396df2;
 }
 
 button {
+  width: 150px;
+  height: 40px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
   color: #396df2;
+  margin: 20px 0 5px 16px;
+  border: 1px solid #dfe1e6;
+  align-content: center;
+  border-radius: 10px;
+  align-items: center;
+  background-color: white;
   text-decoration: none;
   transition: all 0.3s ease 0s;
 }
@@ -609,7 +602,6 @@ button:hover {
   height: 24px;
   display: flex;
   align-items: center;
-  margin-top: 120px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-style: normal;
