@@ -701,3 +701,88 @@ button:hover {
   text-align: left;
   padding-left: 32px;
 }
+
+.contact-me {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 120px;
+}
+
+.contact-me h3 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.last-content p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #ebebff;
+  text-align: center;
+}
+
+.form-contact {
+  width: 100%;
+}
+
+.form-contact ul {
+  padding: 20px 20px;
+}
+
+#name_form,
+#email_form,
+#message {
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  height: 48px;
+  max-width: 447px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #172b4d;
+}
+
+#message {
+  height: auto;
+  border-left-width: 5px;
+  padding-left: 5px;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 375px;
+  height: 779px;
+  background-color: #fff;
+  margin-top: 79px;
+}
+
+.form-contact > ul > li {
+  list-style: none;
+}
+
+.contacts-form {
+  height: 798px;
+  background-color: #6070ff;
+  align-items: center;
+  border-top-left-radius: 80px;
+  background-image: url(imgs/contact-shapes.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -20px;
+}

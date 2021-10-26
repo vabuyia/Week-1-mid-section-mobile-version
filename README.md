@@ -1,16 +1,8 @@
-# Portfolio: mobile version
+# Portfolio: add a contact form and finish the mobile version
 
--you will create the mobile website section where you will list your portfolio projects.
--For the first milestone in the process of creating your portfolio website, you will:
--set up a new repository and prepare it for development using best practices (e.g. linters).
--Build the pages in the websites to describe portfolio.
-
-Additional description about the project and its features.
--Create a new GitHub repo.
--Create a new branch according to the GitHub flow rules.
--Add a .gitignore file.
--Set up a linter for HTML and CSS and make sure that any files that are not relevant are ignored by git.
--Add descriptive README file to your project - please use this template but remember to customize it to your project.
+-For the third milestone of your portfolio website, you will:
+a). Add a contact form to your portfolio
+b). Make sure that you guide your users' experience in a way that helps them fill in the form without frustration.
 
 ## Project Name
 
@@ -18,12 +10,21 @@ Portfolio: mobile version
 
 ## Project Requirements
 
--Build the middle section of the mobile website. The section of the mobile website should include:
-i). Works section should use CSS Grid and Flexbox combined.
-ii). "About myself" section.
-iii). Use ul and li for categories in "About myself" section. Languages, Frameworks an Skills should be list items.
-iv). You must stick to the design as much as possible (e.g font, colors, images, tests, margins)
-v).Implement the button interactions (enable, hover, etc.).
+-Build a contact form section.
+
+- Make sure that:
+  -Name field accepts up to 30 chars.
+  -Email field accepts only emails.
+  -Message field accepts up to 500 chars.
+  -All fields have placeholder text.
+  -All fields have the correct type.
+  -A user cannot submit the form if one or more of the fields is empty.
+
+-Collect data by using the Formspree service.
+-In order to lay out the elements on the page you should use Flexbox.
+-You don't need to implement any functionality that requires JavaScript.
+-You must stick to the design as much as possible (e.g., font, colors, images, tests, margins) using the templates in Figma.
+-Implement the button interactions (enable, hover, etc.).
 
 ## Built With
 
