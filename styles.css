@@ -702,6 +702,18 @@ button:hover {
   padding-left: 32px;
 }
 
+.contact-me {
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 120px;
+}
+
 .contact-me h3 {
   font-size: 40px;
   line-height: 40px;
@@ -720,17 +732,17 @@ button:hover {
   text-align: center;
 }
 
-.form-contact{
+.form-contact {
   width: 100%;
 }
 
-.form-contact ul{
+.form-contact ul {
   padding: 20px 20px;
 }
 
 #name_form,
 #email_form,
-#message{
+#message {
   width: 100%;
   margin-bottom: 15px;
   border: none;
@@ -747,18 +759,30 @@ button:hover {
 #message {
   height: auto;
   border-left-width: 5px;
-  padding-left: 5px
+  padding-left: 5px;
 }
 
-
-.last{
+.last {
   display: flex;
-  flex-direction:column;
-  background-color: #6070ff;
-  border-top-left-radius: 5em;
+  flex-direction: column;
   padding-top: 20px;
+  width: 375px;
+  height: 779px;
+  background-color: #ffffff;
+  margin-top: 79px;
 }
 
-.form-contact > ul > li{
+.form-contact > ul > li {
   list-style: none;
+}
+
+.contacts-form {
+  height: 798px;
+  background-color: #6070ff;
+  align-items: center;
+  border-top-left-radius: 80px;
+  background-image: url(imgs/contact-shapes.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -20px;
 }
