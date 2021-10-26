@@ -701,3 +701,34 @@ button:hover {
   text-align: left;
   padding-left: 32px;
 }
+
+/***********last page************/
+
+.last {
+  width: 375px;
+  height: 779px;
+  background-color: #ffffff;
+  margin-top: 79px;
+}
+
+.contacts-form {
+  height: 779px;
+  background-color: #6070ff;
+  align-items: center;
+  border-top-left-radius: 80px;
+  background-image: url(imgs/contact-shapes.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.contact-me {
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding: 103px 30px 10px 30px;
+}
